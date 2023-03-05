@@ -1,0 +1,39 @@
+.bookmark{
+    background-color: #0d1935;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header{
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding: 12px 10px 12px 19px;
+    margin: 8px;
+    width:1150;
+    height: 52px;
+    border: 1px #4b628c solid;
+    background: #4b628c;
+    border-radius: 0.7rem;
+    color:white;
+  }
+.header i{
+    float: right;
+    color: white;
+    padding: 0 10px 0 0;
+}
+  .boxS {
+    margin: 12px;
+    width:600px;
+    height: 52px;
+    padding-left: 10px;
+    padding-top: 8px;
+    border: 2px #4b628c solid;
+    background: #4b628c;
+    border-radius: 0.5rem;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: white;
+  }

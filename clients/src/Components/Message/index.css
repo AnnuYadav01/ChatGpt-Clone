@@ -1,0 +1,194 @@
+.App {
+    text-align: center;
+    display: flex;
+    background-color: #1d2332;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .sidemenu{
+    width: 380px;
+    padding: 10px;
+    background-color: #2f333b;
+  }
+  .sidemenu-chat{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    padding: 0.5rem;
+  }
+  .search-bar {
+    position: relative;
+  }
+  
+  .search-bar .icon {
+    cursor: pointer;
+    position: absolute;
+    right:54px;
+    padding: 25px;
+  }
+  .search-bar .input-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    float:left;
+    padding: 14px 75px;
+    margin: 12px;
+    background: #464c57;
+    border:none;
+    outline: none;
+    border-radius: 0.5rem;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+  }
+  .tabs {
+    position: absolute;
+    display: flex;
+    grid-template-rows: 3fr;
+    bottom: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    float:left;
+    padding: 14px 0 10px 50px;
+    margin: 12px;
+    background: #29303d;
+    border:none;
+    border-radius: 0.5rem;
+    text-align: left;
+    font-size: 15px;
+  }
+  .tabs i{
+    padding: 0 75px 5px 0 ;
+    align-items: center;
+    margin: 5px 0 0 0;
+    color: white;
+    cursor: pointer;
+  }
+  .all-box{
+    margin-top:80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    text-align: center;
+  }
+  .box {
+    margin: 12px;
+    width:330px;
+    height: 52px;
+    border: 2px #2a2e35 solid;
+    background: #5b606a;
+    border-radius: 0.5rem;
+    padding-top: 8px;
+    cursor: pointer;
+    
+  }
+  .box i{
+    float: right;
+    margin: 12px;
+    cursor: pointer;
+  }
+  .chatbox{
+    flex: 1;
+    position: relative;
+  
+  }
+  .chat-type-name{
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding: 4px;
+    margin: 8px;
+    width:1150;
+    height: 52px;
+    border: 1px #41464d solid;
+    background: #41464d;
+    border-radius: 0.7rem;
+  }
+  .chat-type-name i{
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .chat-input-holder{
+    padding: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .chat-input-textarea{
+    background-color: #40454f ;
+    width: 90%;
+    border: 5px;
+    padding: 12px;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 5px;
+    border: none;
+    margin: 12px;
+    outline: none;
+    box-shadow: 0 0 8px 0 rgba(0, 0,0, 0.25);
+  }
+  .App-header {
+    background-color: #363b46;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  .chat-log{
+     text-align: left;
+     
+  
+    
+  }
+  .chat-message.chatgpt{
+    background-color: #474854;
+  }
+  .chat-message-center{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .avatar{
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  
+  }
+  .avatar.chatgpt{
+    background: fixed;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  
+  }
+  .message{
+    padding-left: 40px;
+    padding-right: 40px;
+  
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
